@@ -6,9 +6,9 @@
 
 enum class TemperatureUnits
 {
-	CELSIUS,
-	FAHRENHEIT,
-	KELVIN
+	CELSIUS = 0,
+	FAHRENHEIT = 1,
+	KELVIN = 2
 };
 
 class Solution1 // Temperature converter
